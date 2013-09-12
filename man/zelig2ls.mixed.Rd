@@ -7,11 +7,8 @@ the Pre-existing Model-fitting Method}
 }
 \arguments{
   \item{formula}{a formula}
-
-  \item{family}{a \code{family} object. This parameter
-  should be changed to \code{link}, since it currently
-  allows to interpret a \code{gamma.mixed} model as any
-  other}
+  \item{family}{the \code{family} argument is not an allowable parameter, and exists only to
+  	warn against accidental usage, since it exist in other models in ZeligMultilevel pacakge.}
 
   \item{...}{parameter to be passed to the \code{lmer}
   function}
